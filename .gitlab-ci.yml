@@ -9,7 +9,7 @@ stages:
 - beta
 - prod
 sast:
-  stage: test
+  stage: beta
 include:
 - template: Security/SAST.gitlab-ci.yml
 assume role:
