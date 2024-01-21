@@ -1,8 +1,8 @@
 {
-  "name": "clubmusiccdk",
+  "name": "club-music-cdk",
   "version": "0.1.0",
   "bin": {
-    "clubmusiccdk": "bin/clubmusiccdk.js"
+    "club-music-cdk": "bin/club-music-cdk.js"
   },
   "scripts": {
     "build": "tsc",
