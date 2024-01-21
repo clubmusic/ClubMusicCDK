@@ -6,13 +6,14 @@
 # Note that environment variables can be set in several places
 # See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 stages:
-- beta
 - prod
 sast:
-  stage: beta
+  stage: prod
 include:
 - template: Security/SAST.gitlab-ci.yml
 assume role:
+  stage:
+    - prod
   id_tokens:
     GITLAB_OIDC_TOKEN:
       aud: https://gitlab.com
