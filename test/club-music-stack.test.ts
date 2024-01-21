@@ -3,7 +3,7 @@
 // import * as Clubmusiccdk from '../lib/clubmusiccdk-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/club-music-stack.ts
+// example resource in lib/ClubMusicPipelineStack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
